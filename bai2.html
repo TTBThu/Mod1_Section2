@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section01</title>
+</head>
+<body>
+    <section style="border: 1px #ddd; border-style: solid solid none solid; margin-left: 300px; padding: 20px">
+        <h1 style="margin-top: 0px;">Trang web bán hàng</h1>
+        <ul>
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="">Sản phẩm</a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">Liên hệ</a></li>
+        </ul>
+        <h2>Thông tin sản phẩm</h2>
+        <table border="1" >
+            <thead style="border: ridge;">
+                <tr>
+                    <th>Tên sản phẩm</th>
+                    <th>Mô tả</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                </tr>
+            </thead>
+            <tbody style="border: ridge;">
+                <tr>
+                    <td>Sản phẩm 1</td>
+                    <td>Mô tả sản phẩm 1</td>
+                    <td>100.000đ</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Sản phẩm 2</td>
+                    <td>Mô tả sản phẩm 2</td>
+                    <td>200.000đ</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Sản phẩm 3</td>
+                    <td>Mô tả sản phẩm 3</td>
+                    <td>300.000đ</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Thông tin người dùng</h2>
+        <form action="" method="">
+            <label for="full_name">Họ và tên:</label>
+            <!--<input type="text" id="full_name" name="full_name" placeholder="Nhập họ và tên của bạn" required><br>-->
+            <input type="text" id="full_name" name="full_name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" autocomplete="off" required><br>
+            <label for="phone">Số điện thoại:</label>
+            <input type="tel" id="phone" name="phone" maxlength="11" required><br>
+            <label for="address">Địa chỉ:</label>
+            <input type="text" id="address" name="address" required><br>
+            <button>Đặt hàng</button>
+        </form>
+    </section>
+</body>
+</html>
